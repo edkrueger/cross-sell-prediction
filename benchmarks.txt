@@ -1,0 +1,47 @@
+Totally Naive
+{'fit_time': 27.338594039281208,
+ 'score_time': 0.4009811083475749,
+ 'test_accuracy': 0.826196705634657,
+ 'test_precision': 0.29378158266146776,
+ 'test_recall': 0.2978591308071077,
+ 'test_f1': 0.29579679723014257,
+ 'test_auc': 0.5989279215864686}
+ 
+ Handle Unknowns for Only the policy_sales_channel and region_codes
+ {'fit_time': 28.94546349843343,
+ 'score_time': 0.3828163146972656,
+ 'test_accuracy': 0.8263252766876161,
+ 'test_precision': 0.2944356409855448,
+ 'test_recall': 0.29875829586812247,
+ 'test_f1': 0.2965720630287058,
+ 'test_auc': 0.5993879702440884}
+
+Handle Unknowns for Only the policy_sales_channel and region_codes
+Binning policy_sales_channel with >= 10 observations
+ {'fit_time': 23.565571069717407,
+ 'score_time': 0.37691545486450195,
+ 'test_accuracy': 0.8226911469331953,
+ 'test_precision': 0.28427516989056306,
+ 'test_recall': 0.29430528794690647,
+ 'test_f1': 0.2891988079980903,
+ 'test_auc': 0.5954015922329653}
+ 
+Handle Unknowns for Only the policy_sales_channel and region_codes
+Binning policy_sales_channel with >= 100 observations
+ {'fit_time': 23.092501084009807,
+ 'score_time': 0.38919536272684735,
+ 'test_accuracy': 0.823242170848089,
+ 'test_precision': 0.28598598071109893,
+ 'test_recall': 0.2954399486191394,
+ 'test_f1': 0.2906282103095625,
+ 'test_auc': 0.5962036729110585}
+ 
+Handle Unknowns for Only the policy_sales_channel and region_codes
+Binning policy_sales_channel with >= 1000 observations
+ {'fit_time': 23.42039163907369,
+ 'score_time': 0.3933785756429036,
+ 'test_accuracy': 0.8229850272963325,
+ 'test_precision': 0.2854492158728215,
+ 'test_recall': 0.295546992078784,
+ 'test_f1': 0.2904055421701895,
+ 'test_auc': 0.5961031869451677}
